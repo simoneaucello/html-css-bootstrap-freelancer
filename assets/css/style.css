@@ -8,12 +8,21 @@ body{
   border: 1px solid black;
 }
 
+img{
+  max-width: 100%;;
+}
+
 header{
-  height: 70px;
+  height: 100%;
 }
 
 .my-bg{
   background-color: #2c3e50 !important;
+}
+
+#jumbotron img{
+  width: 300px;
+  height: 300px;
 }
 
 section{
@@ -24,9 +33,18 @@ section{
   background-color: #019178;
 }
 
+#portfolio{
+  background-color: #fff;
+  color: #2d2d2d;
+}
+
 #portfolio .sa-card{
-  background-color: #019178;
-  height: 265px;
+  
+  /* height: 265px; */
+}
+
+#portfolio .sa-card img{
+ border-radius: 5px;
 }
 
 .sa-container{
@@ -56,6 +74,10 @@ section{
   color: #2b3d4f;
 }
 
+#about{
+  background-color: #019178;
+}
+
 .my-button{
   background-color: #1abc9c;
   border: none;
@@ -63,4 +85,16 @@ section{
 
 .my-button:hover {
   background-color: #137964;
+}
+
+.footer-top{
+  background-color: #42546a;
+}
+
+.footer-bottom{
+  background-color: #33404f;
+}
+
+.footer-top span{
+  color: #54b199;
 }
