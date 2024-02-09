@@ -16,6 +16,39 @@ header{
   height: 100%;
 }
 
+.sa-title{
+  font-size: 4rem;
+}
+
+.sa-sub-title{
+  font-size: 1.5rem;
+}
+
+.sa-star:before,
+.sa-star:after{
+  content: '';
+  display: inline-block;
+  width: 17%;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #fff;
+  margin: 0 20px;
+}
+
+#portfolio .sa-star:before,
+#portfolio .sa-star:after,
+#contactme .sa-star:before,
+#contactme .sa-star:after{
+  background-color: #2C3E50;
+}
+
+
+.fa-star{
+  font-size: 25px;
+  vertical-align: middle;
+  margin: 15px 0;
+}
+
 .my-bg{
   background-color: #2c3e50 !important;
 }
@@ -30,7 +63,8 @@ section{
 }
 
 #jumbotron{
-  background-color: #019178;
+  background-color: #59b89c;
+  
 }
 
 #portfolio{
@@ -64,18 +98,24 @@ section{
   border-radius: 0;
 }
 
+.sa-button{
+  background-color: #59b89c;
+  border-color: white;
+}
+
+
 .my-form input:focus,
 .my-form textarea:focus{
   box-shadow: none;
 }
 
 .my-form input::placeholder,
-.my-form text-area::placeholder{
+.my-form textarea::placeholder{
   color: #2b3d4f;
 }
 
 #about{
-  background-color: #019178;
+  background-color: #59b89c;
 }
 
 .my-button{
@@ -90,6 +130,14 @@ section{
 .footer-top{
   background-color: #42546a;
 }
+
+.icon{
+  width:35px;
+  height: 35px;
+  text-align:center;
+  line-height: 35px;
+}
+
 
 .footer-bottom{
   background-color: #33404f;
