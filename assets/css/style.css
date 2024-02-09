@@ -9,7 +9,7 @@ body{
 }
 
 img{
-  max-width: 100%;;
+  max-width: 100%;
 }
 
 header{
@@ -73,8 +73,32 @@ section{
 }
 
 #portfolio .sa-card{
-  
-  /* height: 265px; */
+  position: relative;
+}
+
+.filter-hide{
+  display: none;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(88, 185, 157, .7);
+  position: absolute;
+  border-radius: 5px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4.5rem;
+  text-align: center;
+}
+
+.sa-card .filter-hide i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sa-card:hover .filter-hide{
+  display: block;
 }
 
 #portfolio .sa-card img{
@@ -86,9 +110,6 @@ section{
   margin: 0 auto;
 }
 
-#contactme .form{
-  height: 690px;
-}
 
 .my-form input,
 .my-form textarea{
@@ -101,6 +122,10 @@ section{
 .sa-button{
   background-color: #59b89c;
   border-color: white;
+}
+
+.sa-button:hover{
+  background-color: #387765;
 }
 
 
@@ -119,7 +144,7 @@ section{
 }
 
 .my-button{
-  background-color: #1abc9c;
+  background-color: #59b89c;
   border: none;
 }
 
