@@ -1,0 +1,66 @@
+body{
+  font-family: 'Helvetica Neue', sans-serif;   
+}
+
+
+.debug{
+  background-color: rgba(170, 224, 83, .2);
+  border: 1px solid black;
+}
+
+header{
+  height: 70px;
+}
+
+.my-bg{
+  background-color: #2c3e50 !important;
+}
+
+section{
+  padding: 60px 0;
+}
+
+#jumbotron{
+  background-color: #019178;
+}
+
+#portfolio .sa-card{
+  background-color: #019178;
+  height: 265px;
+}
+
+.sa-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#contactme .form{
+  height: 690px;
+}
+
+.my-form input,
+.my-form textarea{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+}
+
+.my-form input:focus,
+.my-form textarea:focus{
+  box-shadow: none;
+}
+
+.my-form input::placeholder,
+.my-form text-area::placeholder{
+  color: #2b3d4f;
+}
+
+.my-button{
+  background-color: #1abc9c;
+  border: none;
+}
+
+.my-button:hover {
+  background-color: #137964;
+}
